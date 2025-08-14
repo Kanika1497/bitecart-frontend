@@ -63,8 +63,8 @@ function Menubar() {
                 <img
                   src={assets.cart}
                   alt=""
-                  height={32}
-                  width={32}
+                  height={28}
+                  width={28}
                   className="position-relative"
                 />
                 {uniqueItemsCart===0 ? null :<span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
@@ -73,8 +73,8 @@ function Menubar() {
                 
               </div>
             </Link>
-            {! token ? <><button className="btn btn-outline-primary" onClick={()=>navigate('login')}>Login</button>
-            <button className="btn btn-outline-success" onClick={()=>navigate('register')}>Register</button></>  
+            {! token ? <><button className="btn btn-outline-primary btn-sm" onClick={()=>navigate('login')}>Login</button>
+            <button className="btn btn-outline-success btn-sm" onClick={()=>navigate('register')}>Register</button></>  
             : <div className="dropdown text-end">
               <a href="# " className="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src={assets.profile} alt="" width={32} height={32} className="rounded-circle" ></img>

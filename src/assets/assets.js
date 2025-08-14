@@ -9,6 +9,7 @@ import rolls from './rolls.jpeg';
 import salad from './salad.jpeg';
 import background from './back.jpg';
 import profile from './profile.jpeg';
+
 export const assets ={
     logo,cart,biryani,burger,cake,icecream,pizza,rolls,salad,background,profile
 }
